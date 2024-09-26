@@ -5,31 +5,11 @@
     <meta charset="UTF-8">
     <title>Page Contact</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5; 
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #0a74da; 
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
         .contact-container {
             margin : 0;
             padding : 0;
             font-family: 'Roboto', sans-serif;
             text-align: left;
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
         }
         #message {
             font-size: 0.8rem;
@@ -41,18 +21,13 @@
             border: 1px solid #ccc;
             box-shadow: 1px 1px 1px #999;
         }
+        
+        li {
+            display : list-item;
+            width : 33%
+        }
         ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            font-size: 1.1rem;
-            margin-bottom: 10px;
-            color: #333333;
-        }
-        .contact-info {
-            text-align: center;
-            margin-top: 40px;
+            list-style-type : none ;
         }
         #bouton {
             background-color: #222;
@@ -88,7 +63,7 @@
     <div class="contact-container">
         <h1>Contactez-moi</h1>
         <ul>
-            <form action="mail.php" method="post" enctype="text/plain"></li>
+            <form action="mailto:gomes.ethan02@gmail.com" method="post" enctype="text/plain"></li>
             </li><label for="name"> Nom :</label></li>
             <li><input type="text" id="name" name="name" size="20" maxlength="40" ></li>
 
@@ -102,8 +77,8 @@
         </ul>
         </form>
 
+
         <p><a href="index.html">Retour au CV</a></p>
     </div>
 </body>
-
 

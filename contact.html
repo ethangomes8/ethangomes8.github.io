@@ -7,14 +7,14 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5; 
+            background-color: #6987ba; 
             color: #333333;
             margin: 0;
             padding: 0;
             line-height: 1.6;
         }
         h1, h2 {
-            color: #0a74da; 
+            color: #6987ba; 
             text-align: center;
             font-weight: bold;
             margin-bottom: 20px;
@@ -55,7 +55,7 @@
             margin-top: 40px;
         }
         #bouton {
-            background-color: #222;
+            background-color: #6987ba;
             border-radius: 4px;
             border-style: none;
             box-sizing: border-box;
@@ -88,25 +88,28 @@
     <div class="contact-container">
         <h1>Contactez-moi</h1>
         <ul>
-            <form action="mail.php" method="post" enctype="text/plain"></li>
-            </li><label for="name"> Nom :</label></li>
+            <form action="mailto:gomes.ethan02@gmail.com" method="post" enctype="text/plain"></li>
+            <li><label for="name"> Nom :</label></li>
             <li><input type="text" id="name" name="name" size="20" maxlength="40" placeholder="Prénom Nom" autofocus="autofocus" ></li>
 
+            <li><label for="date"> Date de naissance : </label></li>
+            <li><input type="date" id="date" name="date" size="30" maxlength="40" placeholder="Exemple@expl.com"></li>
+
             <li><label for="email"> Email :</label></li>
-            <li><input type="email" id="email" name="email" size="30" maxlength="40" placeholder="Exemple@expl.com" ></li>
+            <li><input type="email" id="email" name="email" size="30" maxlength="40" placeholder="Exemple@expl.com"></li>
 
             <li><label for="message"> Message :</label></li>
             <li><textarea id="message" rows="5" cols="33" required></textarea></li>
 
-            <p>Pays : <select>
+            <li><p>Pays : <select>
                 <option>FR</option>
                 <option>UK</option>
                 <option>US</option>
-            </select></p>
+            </select></p></li>
 
-            <p><input type="checkbox"> Autoriser ses données à être utilisées </p>
+            <li><p><input type="checkbox"> Autoriser ses données à être utilisées </p></li>
 
-            <button id="bouton" type="submit">Envoyer</button>
+            <li><button id="bouton" type="submit">Envoyer</button></li>
         </ul>
         </form>
 

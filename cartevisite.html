@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head> 
+    <meta charset="UTF-8">
+    <title>Carte de Visite</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #6987ba; 
+        }
+        .Carte{   
+            margin: 1em;
+            padding: 2em;
+            font-family: 'Roboto', sans-serif;
+            text-align: left;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 1em;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+        }
+        .LogoEpsi {
+            position : absolute;
+            top : 20px;
+            right : 20px;
+            width : 110px;
+            height : 110px;
+        }
+        h1, h2 {
+            color: #6987ba;
+        }
+        a:hover {
+            color: red;
+        }
+        @media (max-width : 800px) {
+            #adresse {
+                display: none;
+            }
+        } 
+    </style>
+</head>
+
+<body>
+    <div class = "Carte">
+        <h1>Carte de Visite : </h1>
+        <h2>Gomes-Carlier Ethan </h2>
+        <img class="LogoEpsi" src="../ethangomes8.github.io/LogoEpsi.jpg" alt="Logo Ecole Epsi" /> 
+        <h2>ethan.gomescarlier@ecoles-epsi.net</h2>
+        <p><a href="index.html">Retour au CV</a></p>
+    </div>
+    <p id="adresse"> 2 rue Alphonse Colas</p>
+</body>

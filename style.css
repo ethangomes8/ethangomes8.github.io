@@ -6,9 +6,12 @@
 }
 
 body {
+    font-family: 'Arial', sans-serif;
     background-color: #6987ba;
     color: #333;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
 }
 
@@ -22,7 +25,10 @@ body {
 }
 
 h1, h2 {
-    color: #6987ba;
+    color: #6987ba; 
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -98,6 +104,73 @@ footer {
 #haut {
     text-align: center;
 }
+
+.contact-container {
+    margin : 0;
+    padding : 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#message {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333333;
+}
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#bouton {
+    background-color: #6987ba;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+}
+#button-31:focus {
+opacity: .75;
+}
 a:hover {
     color: red;
 }
+ 
